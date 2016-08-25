@@ -1,0 +1,8 @@
+.DS_Store
+coverage
+.idea/
+.lock-wscript
+public
+node_modules
+.gatsby-context.js
+npm-debug.log

@@ -1,0 +1,35 @@
+@import "~variables";
+
+@font-face {
+  font-family: 'Museo Slab';
+  src: url('museo_slab_bold-webfont.woff2') format('woff2'),
+  url('museo_slab_bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Slab';
+  src: url('museo_slab_regular-webfont.woff2') format('woff2'),
+  url('museo_slab_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  @include font-normal();
+}
+
+.page {
+  padding-top: 100px;
+  position: relative;
+}
+
+.page-headline {
+  @include font-headline();
+}
+
+.row.no-padding > [class*="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

@@ -1,0 +1,42 @@
+@mixin font-headline() {
+  font-family: 'Museo Slab', serif;
+}
+
+@mixin font-normal() {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+@mixin xs-max {
+  @media (max-width: 520px) {
+    @content;
+  }
+}
+
+@mixin sm-max {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin md-max {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin lg-min {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+$xs-max: "520px";
+
+$sm-min: "768px";
+$sm-max: "991px";
+
+$md-min: "992px";
+$md-max: "1199px";
+
+$lg-min: "1200px";
