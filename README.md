@@ -8,4 +8,8 @@ To build a project:
 
 To deploy to github page (my favourite!):
 `npm run deploy`
-`
+
+
+Project site: 
+
+[https://github.com/gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
